@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-cv-jad-razek",
+  "version": "1.0.0",
+  "description": "Portfolio web professionnel - Jad Razek | BUT3 Informatique, Systèmes & Réseaux",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server",
+    "dev": "http-server -p 8080",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "cv",
+    "web",
+    "javascript",
+    "tailwindcss"
+  ],
+  "author": "Jad Razek",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/portfolio.git"
+  }
+}

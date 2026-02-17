@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jad Razek - Portfolio</title>
+    <meta name="description" content="Portfolio de Jad Razek - Étudiant en BUT 3 Informatique, spécialisé en Systèmes et Réseaux.">
+    <meta name="author" content="Jad Razek">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">J.R</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="experience.html">Expérience</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="studies.html">Études</a></li>
+                <li><a href="personal.html">Personnel</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Jad Razek</h1>
+            <p class="hero-subtitle">Systèmes • Réseaux • Infrastructure</p>
+            <p class="hero-desc">Étudiant en BUT 3 Informatique<br/>Parcours Systèmes & Réseaux</p>
+            <div class="hero-cta">
+                <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+                <a href="personal.html" class="btn btn-secondary">À propos de moi</a>
+            </div>
+        </div>
+        <div class="hero-decorations">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>8+</h3>
+                <p>Projets réalisés</p>
+            </div>
+            <div class="stat-card">
+                <h3>5+</h3>
+                <p>Domaines d'expertise</p>
+            </div>
+            <div class="stat-card">
+                <h3>15+</h3>
+                <p>Technologies maîtrisées</p>
+            </div>
+            <div class="stat-card">
+                <h3>3</h3>
+                <p>Ans d'expérience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-section">
+        <h2>Projets en vedette</h2>
+        <p class="section-desc">Une sélection de mes meilleurs projets</p>
+        
+        <div class="featured-grid">
+            <article class="featured-card">
+                <div class="card-icon">🔐</div>
+                <h3>SecureNet Monitor</h3>
+                <p>Outil de supervision réseau et détection d'intrusions avec Python et Cisco.</p>
+                <div class="card-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Cisco</span>
+                    <span class="tag">SNMP</span>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-icon">📚</div>
+                <h3>Student Manager</h3>
+                <p>Application MVC complète de gestion universitaire avec PHP et MySQL.</p>
+                <div class="card-tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Docker</span>
+                </div>
+            </article>
+
+            <article class="featured-card">
+                <div class="card-icon">🚀</div>
+                <h3>Astro Data Process</h3>
+                <p>Traitement d'images FITS et analyse de données astronomiques.</p>
+                <div class="card-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">Matplotlib</span>
+                </div>
+            </article>
+        </div>
+
+        <div class="center-btn">
+            <a href="projects.html" class="btn btn-link">Voir tous les projets →</a>
+        </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="skills-preview">
+        <h2>Mes domaines</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <h4>Réseaux & Infrastructure</h4>
+                <p>Cisco, OSPF, VLAN, VPN, Packet Tracer</p>
+            </div>
+            <div class="skill-item">
+                <h4>Administration Système</h4>
+                <p>Linux, Windows, Apache, Nginx, Bash</p>
+            </div>
+            <div class="skill-item">
+                <h4>Virtualisation</h4>
+                <p>VMware, Docker, Proxmox, vSphere</p>
+            </div>
+            <div class="skill-item">
+                <h4>Développement</h4>
+                <p>Python, PHP, Node.js, Java, SQL</p>
+            </div>
+            <div class="skill-item">
+                <h4>Cybersécurité</h4>
+                <p>SSH, ACL, Cryptographie, JWT</p>
+            </div>
+            <div class="skill-item">
+                <h4>Cloud & DevOps</h4>
+                <p>Docker, Automation, Scripting</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Jad Razek. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:contact@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+</body>
+</html>

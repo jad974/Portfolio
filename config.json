@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "name": "Jad",
+    "surname": "Razek",
+    "title": "Étudiant en BUT 3 Informatique",
+    "subtitle": "Parcours Systèmes & Réseaux",
+    "email": "contact@example.com",
+    "phone": "+33 6 XX XX XX XX",
+    "location": "France"
+  },
+  "about": {
+    "bio": "Étudiant passionné par les systèmes informatiques, les réseaux et la cybersécurité. Expérience pratique avec Cisco, Linux et technologies cloud.",
+    "highlights": ["Cisco", "Linux", "Virtualisation", "Python", "Sécurité"]
+  },
+  "social": {
+    "github": "https://github.com/username",
+    "linkedin": "https://linkedin.com/in/username",
+    "twitter": "https://twitter.com/username",
+    "email": "mailto:contact@example.com"
+  },
+  "skills": [
+    {
+      "category": "Réseaux & Infra",
+      "icon": "fa-network-wired",
+      "description": "Cisco (VPN, OSPF, VLAN), IPsec, HSRP, Packet Tracer"
+    },
+    {
+      "category": "Développement",
+      "icon": "fa-code",
+      "description": "C, Python (PyQt6), Node.js, PHP, Java, SQL"
+    },
+    {
+      "category": "Virtualisation",
+      "icon": "fa-server",
+      "description": "VMware ESXi, vSphere, Proxmox, Docker, Oracle ILOM"
+    },
+    {
+      "category": "Cybersécurité",
+      "icon": "fa-shield-alt",
+      "description": "Crypto (AES/ECC), JWT, SSH, ACL, Sécurité Web"
+    },
+    {
+      "category": "SysAdmin Linux",
+      "icon": "fa-terminal",
+      "description": "Oracle Linux, Debian, Apache/Nginx, Scripting Bash"
+    },
+    {
+      "category": "Soft Skills",
+      "icon": "fa-globe",
+      "description": "Anglais technique, Travail d'équipe international, Rigueur"
+    }
+  ],
+  "projects": [
+    {
+      "title": "SecureNet Monitor",
+      "description": "Outil de supervision réseau et détection d'intrusions.",
+      "tags": ["Python", "Cisco", "SNMP"],
+      "color": "teal",
+      "icon": "fa-shield-alt",
+      "github": "https://github.com/username/project1",
+      "demo": "https://example.com"
+    },
+    {
+      "title": "Student Manager",
+      "description": "Application de gestion universitaire MVC complète.",
+      "tags": ["PHP", "MySQL", "Docker"],
+      "color": "cyan",
+      "icon": "fa-users",
+      "github": "https://github.com/username/project2",
+      "demo": "https://example.com"
+    },
+    {
+      "title": "Astro Data Process",
+      "description": "Traitement d'images FITS et analyse de données astronomiques.",
+      "tags": ["Python", "Matplotlib", "NumPy"],
+      "color": "orange",
+      "icon": "fa-rocket",
+      "github": "https://github.com/username/project3",
+      "demo": "https://example.com"
+    },
+    {
+      "title": "VirtuLab Admin",
+      "description": "Scripts d'automatisation pour environnements virtualisés.",
+      "tags": ["Bash", "VMware", "Linux"],
+      "color": "slate",
+      "icon": "fa-cogs",
+      "github": "https://github.com/username/project4",
+      "demo": null
+    }
+  ],
+  "experience": [
+    {
+      "company": "Nom de l'entreprise",
+      "position": "Stage/Alternance",
+      "period": "Janv 2024 - Juin 2024",
+      "description": "Description de vos missions et réalisations"
+    }
+  ],
+  "education": [
+    {
+      "school": "IUT",
+      "program": "BUT 3 Informatique - Parcours Systèmes & Réseaux",
+      "period": "2024 - 2026",
+      "details": "Formation spécialisée en administration systèmes et réseaux"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certification",
+      "issuer": "Organisme",
+      "date": "2025",
+      "url": "https://example.com"
+    }
+  ],
+  "site": {
+    "title": "Jad Razek - Portfolio",
+    "description": "Portfolio professionnel - Étudiant BUT3 Informatique",
+    "author": "Jad Razek",
+    "year": 2026,
+    "version": "1.0.0",
+    "theme": "dark",
+    "colors": {
+      "primary": "teal",
+      "secondary": "cyan",
+      "background": "slate-950"
+    }
+  }
+}
