@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Smooth scroll for anchor links
     setupSmoothScroll();
+
+    // mobile burger menu
+    setupNavToggle();
 });
 
 // Update active navigation link based on current page
@@ -20,6 +23,36 @@ function updateActiveNavigation() {
             link.classList.add('active');
         }
     });
+}
+
+// Toggle responsive menu on mobile
+function setupNavToggle() {
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('.nav-menu');
+    if (toggle && menu) {
+        // start collapsed on mobile
+        if (window.innerWidth <= 768) {
+            menu.classList.add('collapsed');
+        }
+        // simple click toggle; no hover or mousemove
+        toggle.addEventListener('click', () => {
+            menu.classList.toggle('collapsed');
+        });
+        // clicking outside also hides
+        document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && e.target !== toggle) {
+                menu.classList.add('collapsed');
+            }
+        });
+        // adjust when resizing window
+        window.addEventListener('resize', () => {
+            if (window.innerWidth <= 768) {
+                menu.classList.add('collapsed');
+            } else {
+                menu.classList.remove('collapsed');
+            }
+        });
+    }
 }
 
 // Smooth scroll for anchor links
