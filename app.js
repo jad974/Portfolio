@@ -27,33 +27,18 @@ function updateActiveNavigation() {
 
 // Toggle responsive menu on mobile
 function setupNavToggle() {
-    const toggle = document.querySelector('.nav-toggle');
-    const menu = document.querySelector('.nav-menu');
-    if (toggle && menu) {
-        // start collapsed on mobile
-        if (window.innerWidth <= 768) {
-            menu.classList.add('collapsed');
-        }
-        // simple click toggle; no hover or mousemove
-        toggle.addEventListener('click', () => {
-            menu.classList.toggle('collapsed');
-        });
-        // clicking outside also hides
-        document.addEventListener('click', (e) => {
-            if (!menu.contains(e.target) && e.target !== toggle) {
-                menu.classList.add('collapsed');
-            }
-        });
-        // adjust when resizing window
-        window.addEventListener('resize', () => {
-            if (window.innerWidth <= 768) {
-                menu.classList.add('collapsed');
-            } else {
-                menu.classList.remove('collapsed');
-            }
+    // purely CSS-controlled checkbox menu; add convenience to close on link click
+    const checkbox = document.getElementById('nav-check');
+    if (checkbox) {
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                // collapse menu after navigation on mobile
+                checkbox.checked = false;
+            });
         });
     }
 }
+
 
 // Smooth scroll for anchor links
 function setupSmoothScroll() {
