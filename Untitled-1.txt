@@ -1,0 +1,3 @@
+git add . 
+git commit -m "Enhance mobile burger menu behavior and responsive improvements"
+git push
